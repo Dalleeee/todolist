@@ -1,0 +1,109 @@
+html {
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: rgba(223, 229, 233, 0.1)
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.lists {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 10fr;
+}
+
+h1 {
+    color: rgb(255, 241, 215);
+}
+
+a {
+    color: rgb(255, 241, 215);
+    text-decoration: none;
+}
+
+.project {
+    font-size: 35px;
+}
+
+.item {
+    font-size: 25px;
+}
+
+html {
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+}
+
+p {
+    color: rgb(255, 241, 215);
+    font-size: 20px;
+}
+
+#create-project {
+    font-size: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+button {
+    background-color: rgb(255, 241, 215);
+    border: none;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.form-popup {
+    display: none;
+}
+
+#listForm, #projectForm {
+    font-size: 20px;
+    color: rgb(255, 241, 215);
+}
+
+#header {
+    font-size: 45px;
+}
+
+.button {
+    background-color: rgb(255, 241, 215);
+    border: none;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+#listForm {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

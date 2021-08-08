@@ -1,0 +1,2 @@
+08/08/21
+Initial upload. Minor bugs such as resizing until project title is clicked. Code needs to be cleaned up on next update. Overall decent turnout. Utilized webpack and ES6 modules efficiently. Delete project button and priority has to be fixed.
